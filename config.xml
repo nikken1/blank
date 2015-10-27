@@ -20,12 +20,6 @@
     <preference name="android-minSdkVersion" value="14" />
     <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />
     <preference name="android-installLocation" value="auto" />
-    <gap:plugin name="org.apache.cordova.console" source="npm" />
-    <gap:plugin name="org.apache.cordova.device" source="npm" />
-    <gap:plugin name="org.apache.cordova.dialogs" source="npm" />
-    <gap:plugin name="org.apache.cordova.inappbrowser" source="npm" />
-    <gap:plugin name="org.apache.cordova.splashscreen" source="npm" />
-    <gap:plugin name="org.apache.cordova.statusbar" source="npm" />
     <gap:plugin name="com.ionic.keyboard" />
     <gap:plugin name="cordova-plugin-whitelist" version="1.0.0" source="npm" />
     <icon gap:platform="ios" src="icon.png" />
