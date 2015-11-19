@@ -2407,9 +2407,10 @@ var app = {
     onDeviceReady: function()
     {
 		window.analytics.startTrackerWithId('UA-3112720-23');
-		window.analytics.trackView('LoginPageView');	
+		window.analytics.trackView('LoginPageView');
+		errorMessage(windows.analytics);
         StatusBar.overlaysWebView(false);
-        StatusBar.styleDefault();	
+        StatusBar.styleDefault();
 		cordova.plugins.Keyboard.hideKeyboardAccessoryBar(false);
         window.open = cordova.InAppBrowser.open;
         app.receivedEvent('deviceready');
